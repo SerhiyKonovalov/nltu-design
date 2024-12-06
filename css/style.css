@@ -413,7 +413,7 @@ body {
   top: 50%;
   -webkit-transform: translate(0,-50%);
   transform: translate(0,-50%);
-  width: 0;
+  width: 3.4375rem;
   height: 0;
   z-index: 10;
   cursor: pointer;
@@ -427,7 +427,7 @@ body {
   color: #209765
 }
 .slider-button--prev {
-  left: -3.125rem;
+  left: -4.375rem;
   border-top: 2.1875rem solid transparent;
   border-right: 2.1875rem solid #209765;
   border-bottom: 2.1875rem solid transparent
@@ -436,7 +436,7 @@ body {
   border-right: 2.1875rem solid #39c48a
 }
 .slider-button--next {
-  right: -3.125rem;
+  right: -4.375rem;
   border-top: 2.1875rem solid transparent;
   border-bottom: 2.1875rem solid transparent;
   border-left: 2.1875rem solid #209765
@@ -2045,10 +2045,10 @@ body {
 }
 @media (max-width:100em) {
   .slider-button--prev {
-    left: .625rem
+    left: 0
   }
   .slider-button--next {
-    right: .625rem
+    right: 0
   }
   .certificates__button-prev {
     left: .625rem
@@ -2612,12 +2612,6 @@ body {
     width: 1.875rem;
     height: 1.875rem
   }
-  .slider-button--prev {
-    left: 0
-  }
-  .slider-button--next {
-    right: 0
-  }
   .works__items {
     grid-template-columns: repeat(2,1fr)
   }
@@ -2972,6 +2966,12 @@ body {
   }
 }
 @media (max-width:40.625em) {
+  .slider-button--prev {
+    left: -.625rem
+  }
+  .slider-button--next {
+    right: -.625rem
+  }
   .works__items {
     grid-template-columns: auto
   }
@@ -3056,21 +3056,26 @@ body {
   .body-tabs__info:not(:last-child)>p {
     margin-bottom: .625rem
   }
+  .slider-button {
+    width: 2.5rem
+  }
   .slider-button--prev {
-    border-top: 1.5625rem solid transparent;
-    border-right: 1.5625rem solid #209765;
-    border-bottom: 1.5625rem solid transparent
+    left: -.9375rem;
+    border-top: 1.6875rem solid transparent;
+    border-right: 1.6875rem solid #209765;
+    border-bottom: 1.6875rem solid transparent
   }
   .slider-button--prev:hover {
-    border-right: 1.5625rem solid #39c48a
+    border-right: 1.6875rem solid #39c48a
   }
   .slider-button--next {
-    border-top: 1.5625rem solid transparent;
-    border-left: 1.5625rem solid #209765;
-    border-bottom: 1.5625rem solid transparent
+    right: -.9375rem;
+    border-top: 1.6875rem solid transparent;
+    border-left: 1.6875rem solid #209765;
+    border-bottom: 1.6875rem solid transparent
   }
   .slider-button--next:hover {
-    border-left: 1.5625rem solid #39c48a
+    border-left: 1.6875rem solid #39c48a
   }
   .pagination {
     -webkit-column-gap: .9375rem;
@@ -3166,10 +3171,10 @@ body {
 }
 @media (max-width:21.8125em) {
   .slider-button--prev {
-    left: -.4375rem
+    left: -1.25rem
   }
   .slider-button--next {
-    right: -.4375rem
+    right: -1.25rem
   }
   .certificates__button-prev {
     left: -.4375rem
