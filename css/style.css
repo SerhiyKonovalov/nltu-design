@@ -2782,6 +2782,9 @@ body {
     gap: 1.375rem;
     border-radius: 1.25rem
   }
+  .item-educations__image {
+    border-radius: 1.25rem
+  }
   .feedbacks__items {
     grid-template-columns: repeat(2,1fr)
   }
